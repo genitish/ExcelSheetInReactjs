@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Excelsheet from './components/Excelsheet';
 
 function App() {
+  const [rows,setRows] = useState(2);
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Udaan Interview</h1>
+      <input type="number" onBlur={(e) =>{ setRows(Number(e.target.value))}}/>
+      <Excelsheet rows = {rows} />
     </div>
   );
 }

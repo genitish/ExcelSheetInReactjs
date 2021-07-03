@@ -1,0 +1,12 @@
+input{
+    width: 100px;
+}
+
+.rows{
+    display: flex;
+}
+
+input:focus{
+    border: 2px solid turquoise;
+    outline: turquoise;
+}
