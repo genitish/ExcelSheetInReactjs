@@ -10,7 +10,6 @@ function ColumnName({column}) {
     else{
         const q = column/26;
         const rem = column%26;
-        console.log(String.fromCharCode('A'.charCodeAt() + (q-1)) + String.fromCharCode('A'.charCodeAt() + rem))
         columnName = String.fromCharCode('A'.charCodeAt() + (q-1)) + String.fromCharCode('A'.charCodeAt() + rem)
     }
     return (

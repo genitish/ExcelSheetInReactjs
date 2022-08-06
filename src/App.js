@@ -4,7 +4,6 @@ import Excelsheet from './components/Excelsheet';
 import ColumnName from './components/ColumnName';
 
 const printColumnName = (rows)  => {
-  let char = 'A'
   let columns = []
   for(let i=0;i<rows;i++){
     columns.push(<ColumnName column = {i}/>)
