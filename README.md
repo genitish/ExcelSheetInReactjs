@@ -4,6 +4,10 @@ This project is somehow similar to the Excelsheet.\
 You can add number of cell dynamically by providing the  no. of  rows or columns through a input field. \
 You can write anything in the cells and if you want to perform SUM operation then you have to enter numbers only.\
 
+## Deployed Link
+
+[https://excelsheetinreact.netlify.app/](https://excelsheetinreact.netlify.app/)
+
 ## Screenshot of the App
 
 
