@@ -5,7 +5,9 @@ You can add number of cell dynamically by providing the  no. of  rows or columns
 You can write anything in the cells and if you want to perform SUM operation then you have to enter numbers only.\
 
 ##Screenshot of the App
-![](../../Screenshot 2022-08-06 at 8.27.20 pm.png)
+
+
+![https://github.com/genitish](../../Screenshot 2022-08-06 at 8.27.20 pm.png)
 
 ## Available Scripts
 
