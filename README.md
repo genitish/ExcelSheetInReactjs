@@ -4,10 +4,10 @@ This project is somehow similar to the Excelsheet.\
 You can add number of cell dynamically by providing the  no. of  rows or columns through a input field. \
 You can write anything in the cells and if you want to perform SUM operation then you have to enter numbers only.\
 
-##Screenshot of the App
+## Screenshot of the App
 
 
-![https://github.com/genitish](../../Screenshot 2022-08-06 at 8.27.20 pm.png)
+![](https://github.com/genitish/ExcelSheetInReactjs/blob/master/Screenshot%202022-08-06%20at%208.27.20%20pm.png)
 
 ## Available Scripts
 
