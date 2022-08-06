@@ -10,3 +10,25 @@ input:focus{
     border: 2px solid turquoise;
     outline: turquoise;
 }
+
+.rowNo{
+    min-height: 10px;
+    min-width: 26px;
+    border: 1px solid black;
+    margin: 0 2px 0 6px;
+    background-color: bisque;
+}
+
+.columnName-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 37px;
+    margin-bottom: 2px;
+}
+
+.columnName{
+    min-height: 10px;
+    min-width: 106px;
+    border: 1px solid black;
+    background-color: bisque;
+}
